@@ -1,18 +1,35 @@
 * {
     text-decoration: none;
-    font-weight: bold;
+    margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
 }
 
 nav {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
     background-color: blue;
     border-radius: 10px;
+    background-image: url(./wallhaven-g7lvw7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 3px solid white;
 }
 
 
 #logo {
     color: white;
+    display: inline-block;
+    margin: 10px;
     padding: 20px;
 }
+
 
 a {
     color: white;
@@ -26,5 +43,32 @@ li {
 }
 
 ul {
-    margin-left: 950px;
+    margin-left: 800px;
+}
+
+.about_me {
+    display: flex;
+    color: white;
+    display: inline-block;
+}
+
+p {
+    margin-top: 20px;
+    margin-right: 505px;
+    margin-left: 20px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+img {
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 80px;
+    margin-left: 10px;
 }
